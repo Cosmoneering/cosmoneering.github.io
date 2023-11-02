@@ -16,6 +16,7 @@ body {
     top: 0px;
     left: 0px;
     right: 0px;
+    z-index: 99;
 }
 
 #sidebar {
@@ -26,6 +27,7 @@ body {
     top: 100px;
     left: 0px;
     bottom: 0;
+    z-index: 99;
 }
 
 #viewport {
@@ -43,11 +45,13 @@ body {
     color: white;
     font-size: 24px;
     font-weight: bold;
+    z-index: 100;
 }
 
 #menu {
     position: flex;
     margin: 20px;
+    z-index: 100;
 }
 
 #menu a {
@@ -72,7 +76,8 @@ h1 {
 }
 
 footer {
-    position: absolute;
+    position: relative;
+    top: 20px;
     bottom: 0;
     height: 2.5rem;
 }

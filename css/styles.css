@@ -31,15 +31,15 @@ body {
 }
 
 #viewport {
-    position: fixed;
+    position: absolute;
     left: 200px;
     top: 100px;
     right: 0px;
     bottom: 20px;
 }
 
-#about {
-    padding: 20px;
+#home {
+    position: fixed;
 }
 #about {
     padding: 20px;

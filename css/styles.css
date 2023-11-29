@@ -31,11 +31,32 @@ body {
 }
 
 #viewport {
-    position: absolute;
+    position: fixed;
     left: 200px;
     top: 100px;
     right: 0px;
     bottom: 20px;
+}
+
+#about {
+    padding: 20px;
+}
+#about {
+    padding: 20px;
+}
+#services {
+    padding: 20px;
+}
+#products {
+    padding: 20px;
+}
+#news {
+    padding: 20px;
+}
+#contact {
+    padding: 20px;
+}
+#blog {
     padding: 20px;
 }
 
